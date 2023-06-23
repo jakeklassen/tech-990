@@ -23,7 +23,7 @@ const refunds = [
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: 'new',
     args: [
       // '--disable-web-security',
       // '--disable-features=IsolateOrigins,site-per-process',
